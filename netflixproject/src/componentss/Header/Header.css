@@ -1,0 +1,39 @@
+.HeaderHolder {
+   position: sticky; 
+   top: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+   background-color: transparent;
+   height: 10vh;
+   color: white;
+   transition: all 0.5s;
+   transition-timing-function: ease-in;
+   z-index: 1;
+   /* background-color: #E50914; */
+   
+}
+.HeaderContainer {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LeftHeader ul{
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+.RightHeader ul{
+    width: 150%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    cursor: pointer;
+}
