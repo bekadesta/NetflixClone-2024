@@ -4,7 +4,7 @@ import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 
-
+ 
 function Footer() {
   return (
     <div className='OuterContainer'>
@@ -46,7 +46,7 @@ function Footer() {
         </div>
         <div className='ServiceCode'>
             <p>
-                Service Cide
+                Service Code
             </p>
         </div>
         <div className='CopyWrite'>
